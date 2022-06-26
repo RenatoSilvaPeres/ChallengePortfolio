@@ -1,5 +1,4 @@
 .sobre__texto{
   color: var(--cor--letras);
-  font-size: 3.3rem;
-  width: 63%;
+  text-align: justify;
 }

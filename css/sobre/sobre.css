@@ -2,6 +2,4 @@
   background: var(--azul-escuro-sobre);
   display: flex;
   flex-direction: column;
-  padding-top: 7rem;
-  padding-bottom: 6rem;
 }

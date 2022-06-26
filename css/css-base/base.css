@@ -14,3 +14,9 @@ font-family: var(--font-padrao);
 .container{
   padding: 0 20rem;
 }
+
+.caixa{
+  padding-top: 7rem;
+  padding-bottom: 6rem;
+  width: 63%;
+}
