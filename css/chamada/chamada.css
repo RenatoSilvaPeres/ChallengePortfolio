@@ -1,0 +1,6 @@
+.chamada{
+  background: var(--azul-claro-header);
+  display: flex;
+  align-items: center;
+  
+}

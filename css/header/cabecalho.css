@@ -1,0 +1,6 @@
+.cabecalho{
+  align-items: center;
+  background: var(--azul-claro-header);
+  display: flex;
+  justify-content: space-between;
+}

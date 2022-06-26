@@ -1,0 +1,16 @@
+:root{
+--azul-claro-header: #F5F5F5;
+
+--azul-escuro-sobre: #EAF2FD;
+
+--cor--letras: #464646;
+
+--font-padrao: 'Raleway', sans-serif;
+
+font-family: var(--font-padrao);
+
+}
+
+.container{
+  padding: 0 20rem;
+}

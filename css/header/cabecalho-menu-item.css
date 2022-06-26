@@ -1,0 +1,8 @@
+.cabecalho__menu-item{
+  list-style: none;
+  margin-right: 2rem;
+}
+.cabecalho__menu-item:last-child{
+  font-weight: 700;
+  margin-right: 0;
+}
