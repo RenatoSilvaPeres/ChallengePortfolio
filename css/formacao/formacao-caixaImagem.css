@@ -1,0 +1,8 @@
+.formacao__caixa-imagem{
+  width: 368px;
+  height: 286px;
+  background: var(--branco-padrao);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

@@ -1,0 +1,9 @@
+.formacao{
+  height: auto;
+  background: var(--azul-escuro-sobre);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 3rem;
+  padding-bottom: 2rem;
+}

@@ -43,6 +43,23 @@
   <link rel="stylesheet" href="./css/habilidades/habilidades-hobbies.css">
   <link rel="stylesheet" href="./css/habilidades/habilidades-caixa.css">
   <link rel="stylesheet" href="./css/habilidades/habilidades-textoImagens">
+  <!-- --links formação-- -->
+  <link rel="stylesheet" href="./css/formacao/formacao.css">
+  <link rel="stylesheet" href="./css/formacao/formacao-titulo.css">
+  <link rel="stylesheet" href="./css/formacao/formacao-imagem.css">
+  <link rel="stylesheet" href="./css/formacao/formacao-data.css">
+  <link rel="stylesheet" href="./css/formacao/formacao-tituloFigure.css">
+  <link rel="stylesheet" href="./css/formacao/formacao-caixaImagem.css">
+
+  <!-- --links experiência-- -->
+  <link rel="stylesheet" href="./css/experiencia/experiencia-caixa.css">
+  <link rel="stylesheet" href="./css/experiencia/experiencia-caixaBotoes.css">
+  <link rel="stylesheet" href="./css/experiencia/experiencia-descricao.css">
+  <link rel="stylesheet" href="./css/experiencia/experiencia-imagem.css">
+  <link rel="stylesheet" href="./css/experiencia/experiencia-link.css">
+  <link rel="stylesheet" href="./css/experiencia/experiencia-tituloBotoes.css">
+  <link rel="stylesheet" href="./css/experiencia/experiencia.css">
+  <link rel="stylesheet" href="./css/experiencia/experiencia-titulo.css">
 
   <title>Portfolio</title>
 </head>
@@ -100,19 +117,45 @@
     </div>
     <p></p>
   </section>
-  <section class="fomacao">
+  <section class="formacao container">
+    <h2 class="formacao__titulo">Formação acadêmica</h2>
     <figure class="formacao__imagem">
-      <figcaption class="formacao__titulo"></figcaption>
-      <p class="formacao__data"></p>
+      <div class="formacao__caixa-imagem">
+        <img src="./img/alura.png" alt="Logo da Alura">
+      </div>
+      <figcaption class="formacao__titulo-figure">HTML5 e CSS3</figcaption>
+      <p class="formacao__data">2022 - Alura</p>
     </figure>
     <figure class="formacao__imagem">
-      <figcaption class="formacao__titulo"></figcaption>
-      <p class="formacao__data"></p>
+      <div class="formacao__caixa-imagem">
+        <img src="./img/alura.png" alt="Logo da Alura">
+      </div>
+      <figcaption class="formacao__titulo-figure">JavaScript</figcaption>
+      <p class="formacao__data">2022 - Alura</p>
     </figure>
-    <figure class="formacao__imagem">
-      <figcaption class="formacao__titulo"></figcaption>
-      <p class="formacao__data"></p>
-    </figure>
+  </section>
+  <section class="experiencia container">
+    <h2 class="experiencia__titulo">Experiência profissional</h2>
+    <div class="experiencia__caixa">
+      <div class="experiencia__imagem"></div>
+      <div class="experiencia__caixa-botoes">
+        <h2 class="experiencia__titulo-botao">Decodificador de texto</h2>
+        <p class="experiencia__descricao">Challenge Alura
+          Codificador</p>
+        <a href="https://github.com/RenatoSilvaPeres/FirstChallengeOracleOne" class="experiencia__link">Repositório</a>
+        <a href="https://renatosilvaperes.github.io/FirstChallengeOracleOne/desafio.html" class="experiencia__link">Ver demo</a>
+      </div>
+    </div>
+    <div class="experiencia__caixa">
+      <div class="experiencia__imagem experiencia__imagem--jogoForca"></div>
+      <div class="experiencia__caixa-botoes">
+        <h2 class="experiencia__titulo-botao">Jogo criado com HTML, CSS e JavaScript</h2>
+        <p class="experiencia__descricao">Challenge Alura
+          Codificador</p>
+        <a href="https://github.com/RenatoSilvaPeres/challengeOneJogoForca" class="experiencia__link">Repositório</a>
+        <a href="https://renatosilvaperes.github.io/challengeOneJogoForca/" class="experiencia__link">Ver demo</a>
+      </div>
+    </div>
   </section>
 </body>
 </html>

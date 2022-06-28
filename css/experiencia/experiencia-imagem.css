@@ -1,0 +1,16 @@
+.experiencia__imagem{
+  background: url("../../img/decoder.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 752px;
+  box-shadow: -3px 3px 3px rgb(154, 153, 153);
+  height: 406px;
+}
+
+.experiencia__imagem--jogoForca{
+  background: url("../../img/jogo\ da\ forca.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
