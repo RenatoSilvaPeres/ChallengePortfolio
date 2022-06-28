@@ -1,0 +1,8 @@
+.formulario__fildset{
+  display: flex;
+  width: 41rem;
+  flex-direction: column;
+  border: none;
+  padding:0 0 0 1rem;
+ 
+}

@@ -14,7 +14,8 @@ font-family: var(--font-padrao);
 }
 
 .container{
-  padding: 0 20rem;
+  padding: 0 10rem;
+  
 }
 
 .caixa{

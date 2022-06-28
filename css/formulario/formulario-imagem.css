@@ -1,0 +1,8 @@
+.formulario__imagem{
+  background-image: url("../../img/formulario__imagem.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 37.06rem;
+  width: 29rem;
+}

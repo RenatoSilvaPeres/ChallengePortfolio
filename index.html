@@ -61,6 +61,17 @@
   <link rel="stylesheet" href="./css/experiencia/experiencia.css">
   <link rel="stylesheet" href="./css/experiencia/experiencia-titulo.css">
 
+  <!-- --link formulario-- -->
+  <link rel="stylesheet" href="./css/formulario/formulario-fieldset.css">
+  <link rel="stylesheet" href="./css/formulario/formulario-input.css">
+  <link rel="stylesheet" href="./css/formulario/formulario-label.css">
+  <link rel="stylesheet" href="./css/formulario/formulario-texto.css">
+  <link rel="stylesheet" href="./css/formulario/formulario-titulo.css">
+  <link rel="stylesheet" href="./css/formulario/formulario.css">
+  <link rel="stylesheet" href="./css/formulario/formulario-caixa.css">
+  <link rel="stylesheet" href="./css/formulario/formulario-botao.css">
+  <link rel="stylesheet" href="./css/formulario/formulario-imagem.css">
+  
   <title>Portfolio</title>
 </head>
 <body>
@@ -143,7 +154,7 @@
         <p class="experiencia__descricao">Challenge Alura
           Codificador</p>
         <a href="https://github.com/RenatoSilvaPeres/FirstChallengeOracleOne" class="experiencia__link">Repositório</a>
-        <a href="https://renatosilvaperes.github.io/FirstChallengeOracleOne/desafio.html" class="experiencia__link">Ver demo</a>
+        <a href="https://renatosilvaperes.github.io/FirstChallengeOracleOne/desafio.html" class="experiencia__link experiencia__link--direito">Ver demo</a>
       </div>
     </div>
     <div class="experiencia__caixa">
@@ -153,9 +164,34 @@
         <p class="experiencia__descricao">Challenge Alura
           Codificador</p>
         <a href="https://github.com/RenatoSilvaPeres/challengeOneJogoForca" class="experiencia__link">Repositório</a>
-        <a href="https://renatosilvaperes.github.io/challengeOneJogoForca/" class="experiencia__link">Ver demo</a>
+        <a href="https://renatosilvaperes.github.io/challengeOneJogoForca/" class="experiencia__link experiencia__link--direito">Ver demo</a>
       </div>
     </div>
+  </section>
+  <section class="formulario container">
+    <div class="formulario__imagem"></div>
+    <fieldset class="formulario__fildset">
+      <h2 class="formulario__titulo">Contato</h2>
+      <p class="formulario__texto">Quer entrar em contato comigo?
+        Preencha o formulário ao lado e entrarei em contato o mais rápido possível.</p>
+      <div class="formulario__caixa">
+        <label for="nome" class="formulario__label">Nome</label>
+        <input type="text" class="formulario__input" id="nome">
+      </div>
+      <div class="formulario__caixa">
+        <label for="nome" class="formulario__label">Email</label>
+        <input type="email" class="formulario__input" id="nome">
+      </div>
+      <div class="formulario__caixa">
+        <label for="nome" class="formulario__label">Assunto</label>
+        <input type="text" class="formulario__input" id="nome">
+      </div>
+      <div class="formulario__caixa">
+        <label for="nome" class="formulario__label">Mensagem</label>
+        <input type="text" class="formulario__input formulario__input--mensagem" id="nome">
+      </div>
+      <button type="submit" class="formulario__botao">Enviar Mensagem</button>
+    </fieldset>
   </section>
 </body>
 </html>
