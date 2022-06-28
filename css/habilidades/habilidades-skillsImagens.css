@@ -1,5 +1,9 @@
 .habilidades__skills-imagens{
-  background: red;
-  height: 16%;
-  width: 16%;
+  align-items: flex-end;
+  background: var(--branco-padrao);
+  display: flex;
+  font-weight: 700;
+  height: 176px;
+  padding-left: 1rem;
+  width: 14%;
 }

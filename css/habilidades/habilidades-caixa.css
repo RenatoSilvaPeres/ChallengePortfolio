@@ -1,0 +1,8 @@
+.habilidades__caixa{
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 3rem;
+  width: 100%;
+}
