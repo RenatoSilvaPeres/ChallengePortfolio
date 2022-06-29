@@ -2,6 +2,8 @@
  width: 100%;
  margin-bottom: 2rem;
  height: 3.5rem;
+ border: none;
+ border-bottom: 2px solid var(--cor-borda-cinza);
 }
 
 .formulario__input--mensagem{

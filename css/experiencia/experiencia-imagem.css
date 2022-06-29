@@ -3,9 +3,10 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  width: 752px;
   box-shadow: -3px 3px 3px rgb(154, 153, 153);
   height: 406px;
+  width: 752px;
+  
 }
 
 .experiencia__imagem--jogoForca{
@@ -13,4 +14,6 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  height: 406px;
+  width: 752px;
 }

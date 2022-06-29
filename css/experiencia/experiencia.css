@@ -2,5 +2,6 @@
   background: var(--azul-claro-header);
   display: flex;
   flex-direction: column;
+  
   height: auto;
 }

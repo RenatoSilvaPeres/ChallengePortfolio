@@ -5,7 +5,12 @@
 
 --branco-padrao: #ffffff;
 
+--azul-botao: #2A7AE4;
+
 --cor--letras: #464646;
+--cor--label: #A2A2A2;
+
+--cor-borda-cinza: #C8C8C8;
 
 --font-padrao: 'Raleway', sans-serif;
 
@@ -14,7 +19,8 @@ font-family: var(--font-padrao);
 }
 
 .container{
-  padding: 0 10rem;
+
+  padding: 0 15rem;
   
 }
 

@@ -1,4 +1,7 @@
 .formulario__label{
   position: absolute;
-  
+  font-weight: 400;
+  color: var(--cor--label);
+  font-size: 12px;
+  padding: 0.5rem 0 0 0.5rem;
 }

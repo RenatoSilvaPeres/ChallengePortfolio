@@ -1,6 +1,6 @@
 .experiencia__link{
-  border: 1px solid #2A7AE4;
-  color: #2A7AE4;
+  border: 1px solid var(--azul-botao);
+  color: var(--azul-botao);
   height: 3.15rem;
   padding: 1rem;
   text-decoration: none;
