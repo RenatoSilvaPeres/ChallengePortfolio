@@ -6,3 +6,11 @@
   font-weight: 700;
   margin-right: 0;
 }
+
+@media screen and (max-width: 480px) {
+
+  .cabecalho__menu-item:not(:last-child){
+    display: none;
+
+  }
+}

@@ -1,9 +1,45 @@
 .habilidades__skills-imagens{
-  align-items: flex-end;
+  
   background: var(--branco-padrao);
   display: flex;
+  justify-content: center;
+  align-items: flex-end;
   font-weight: 700;
   height: 176px;
-  padding-left: 1rem;
-  width: 14%;
+  margin-top: 2rem;
+  width: 174px;
+  
+}
+.habilidades__skills-imagens:first-child{
+  
+margin-left: 0;
+  
+}
+.habilidades__skills-imagens--blender{
+  background-image: url(../../img/blender_icon_128x128.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 50%;
+  
+}
+.habilidades__skills-imagens--javascript{
+  background-image: url(../../img/blender_icon_128x128.png);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.habilidades__skills-imagens--HTML{
+  background-image: url(../../img/blender_icon_128x128.png);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.habilidades__skills-imagens--CSS{
+  background-image: url(../../img/blender_icon_128x128.png);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.habilidades__skills-imagens--GITHUB{
+  background-image: url(../../img/blender_icon_128x128.png);
+  background-position: center;
+  background-repeat: no-repeat;
 }

@@ -4,3 +4,11 @@
   height: 23rem;
   width: 23rem;
 }
+
+@media screen and (max-width: 480px) {
+  .chamada__imagem{
+    height: 6.1rem;
+    width: 6.1rem;
+  }
+ 
+}

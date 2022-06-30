@@ -1,3 +1,10 @@
 .chamada__titulo{
   font-size: 3.6rem;
 }
+@media screen and (max-width: 480px) {
+  .chamada__titulo{
+    font-size: 22px;
+    
+  }
+ 
+}

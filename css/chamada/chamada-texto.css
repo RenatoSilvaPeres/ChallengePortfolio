@@ -1,3 +1,9 @@
 .chamada__texto{
   font-size: 1.37rem;
 }
+@media screen and (max-width: 480px) {
+  .chamada__texto{
+    font-size: 14px;
+  }
+ 
+}
