@@ -19,18 +19,8 @@ font-family: var(--font-padrao);
 
 }
 
-.container{
 
-  padding: 0 15rem;
-  
-}
-
-.caixa{
-  padding-top: 7rem;
-  padding-bottom: 6rem;
-  width: 63%;
-}
-@media screen and (max-width: 480px) {
+@media screen and (min-width: 0px) {
   .container{
 
     padding: 0 1rem;
@@ -41,6 +31,29 @@ font-family: var(--font-padrao);
     padding-top: 1rem;
     padding-bottom: 2rem;
     width: 100%;
+   
+  }
+  
+}
+@media screen and (min-width: 480px) {
+ 
+  
+}
+@media screen and (min-width: 768px) {
+  
+  
+}
+@media screen and (min-width: 1440px) {
+  .container{
+
+    padding: 0 15rem;
+    
+  }
+  
+  .caixa{
+    padding-top: 7rem;
+    padding-bottom: 6rem;
+    width: 63%;
   }
   
 }

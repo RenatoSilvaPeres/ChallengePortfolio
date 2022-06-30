@@ -1,9 +1,22 @@
 .chamada__link{
   text-decoration: none;
 }
-@media screen and (max-width: 480px) {
+@media screen and (min-width: 0px) {
   .chamada__link{
     font-size: 14px;
+    
+  }
+ 
+}
+@media screen and (min-width: 480px) {
+  .chamada__link{
+    
+  }
+ 
+}
+@media screen and (min-width: 768px) {
+  .chamada__link{
+    font-size: 16px;
   }
  
 }

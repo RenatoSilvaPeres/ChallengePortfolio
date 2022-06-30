@@ -1,9 +1,25 @@
-.chamada__titulo{
-  font-size: 3.6rem;
-}
-@media screen and (max-width: 480px) {
+
+@media screen and (min-width: 0px) {
   .chamada__titulo{
     font-size: 22px;
+    
+  }
+ 
+}
+@media screen and (min-width: 480px) {
+ 
+ 
+}
+@media screen and (min-width: 768px) {
+  .chamada__titulo{
+    font-size: 30px;
+    
+  }
+ 
+}
+@media screen and (min-width: 1440px) {
+  .chamada__titulo{
+    font-size: 3.6rem;
     
   }
  

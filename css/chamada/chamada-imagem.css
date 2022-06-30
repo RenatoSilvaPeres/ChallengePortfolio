@@ -1,14 +1,32 @@
 .chamada__imagem{
   background: red;
   border-radius: 100%;
-  height: 23rem;
-  width: 23rem;
+ 
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (min-width: 0) {
   .chamada__imagem{
     height: 6.1rem;
     width: 6.1rem;
+  }
+ 
+}
+@media screen and (min-width: 480px) {
+ 
+ 
+}
+
+@media screen and (min-width: 768px) {
+  .chamada__imagem{
+    height: 15rem;
+    width: 15rem;
+  }
+ 
+}
+@media screen and (min-width: 1440px) {
+  .chamada__imagem{
+    height: 23rem;
+    width: 23rem;
   }
  
 }

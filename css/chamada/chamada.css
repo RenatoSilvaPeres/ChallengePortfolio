@@ -5,12 +5,36 @@
   flex-wrap: wrap-reverse;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (min-width: 0px) {
   .chamada{
     flex-direction: column-reverse;
-    align-items:flex-end;
+    align-items:center;
     padding-top: 1rem;
+    text-align: center;
     
+  }
+ 
+}
+@media screen and (min-width: 480px) {
+ 
+ 
+}
+@media screen and (min-width: 768px) {
+  .chamada{
+    
+    
+    padding-top: 2rem;
+   
+    
+  }
+ 
+}
+@media screen and (min-width: 1440px) {
+  .chamada{
+    
+    align-items: center;
+    flex-direction: row;
+    text-align: initial;
   }
  
 }

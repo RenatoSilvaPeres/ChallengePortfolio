@@ -3,3 +3,25 @@
   font-size: 2rem;
   
 }
+
+@media screen and (min-width: 0px) {
+  .sobre__titulo{
+    text-align: center;
+  }
+  
+}
+
+@media screen and (min-width: 480px) {
+
+
+}
+@media screen and (min-width: 768px) {
+
+  
+}
+@media screen and (min-width: 1440px) {
+  .sobre__titulo{
+    text-align: initial;
+  }
+    
+}

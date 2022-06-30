@@ -4,9 +4,34 @@
   
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (min-width: 0px) {
   .experiencia__caixa-botoes{
     width: 60%;
+    margin: 0 auto;
+    text-align: center;
+  }
+ 
+}
+
+@media screen and (min-width: 480px) {
+  .experiencia__caixa-botoes{
+  
+  }
+ 
+}
+@media screen and (min-width: 768px) {
+  .experiencia__caixa-botoes{
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+  }
+ 
+}
+
+@media screen and (min-width: 1440px) {
+  .experiencia__caixa-botoes{
+    
+    width: 30%;
     margin: 0 auto;
     text-align: center;
   }

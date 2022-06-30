@@ -9,7 +9,17 @@
   width: 100%;
   
 }
-@media screen and (max-width: 480px) {
+@media screen and (min-width: 0px) {
+  .habilidades__caixa{
+    flex-direction: column;
+    align-items: center;
+  }
  
+}
+@media screen and (min-width: 480px) {
+  .habilidades__caixa{
+    flex-direction: row;
+    
+  }
  
 }

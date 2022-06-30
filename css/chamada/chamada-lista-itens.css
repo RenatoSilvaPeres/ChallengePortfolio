@@ -1,4 +1,28 @@
 .chamada__lista-itens{
   list-style: none;
-  margin-right: 2rem;
+  
+}
+
+
+@media screen and (min-width: 0px) {
+  .chamada__lista-itens{
+    margin: auto;
+    
+  }
+ 
+}
+@media screen and (min-width: 480px) {
+  
+ 
+}
+@media screen and (min-width: 768px) {
+  
+ 
+}
+
+@media screen and (min-width: 1440px) {
+  .chamada__lista-itens{
+
+    margin:0 0 0 2rem;
+  }
 }
