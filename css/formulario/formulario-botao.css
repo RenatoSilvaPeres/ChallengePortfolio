@@ -7,4 +7,11 @@
   background: var(--azul-botao);
   border: none;
   color: var(--branco-padrao);
+  transition: all 0.5s;
 }
+
+.formulario__botao:hover{
+  cursor: pointer;
+  opacity: 0.8;
+}
+

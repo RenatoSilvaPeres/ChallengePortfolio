@@ -1,12 +1,25 @@
 .formulario__input{
- width: 100%;
- margin-bottom: 2rem;
- height: 3.5rem;
- border: none;
- border-bottom: 2px solid var(--cor-borda-cinza);
+  border: none;
+  border-bottom: 2px solid var(--cor-borda-cinza);
+  height: 2.5rem;
+  padding: 1rem 0.5rem 0rem 0.5rem;
+  margin-bottom: 2rem;
+  width: 100%;
 }
-
+.formulario__input:focus + label{
+  color: var(--azul-botao);
+  top: 0;
+  font-size: 12px;
+  transition: all 0.5s;
+ 
+}
+.formulario__input:focus{
+  outline: none;
+  border-bottom: 2px solid var(--azul-botao);
+}
 .formulario__input--mensagem{
   height: 8.31rem;
+  padding-top: 2rem;
+  resize: none;
   
 }

@@ -94,7 +94,7 @@
   </header>
   <section class="chamada container">
     <div class="chamada__caixa caixa">
-      <h2 class="chamada__titulo">Olá, meu nome é Fulana de Tal e construo páginas web</h2>
+      <h2 class="chamada__titulo">Olá, meu nome é Renato Peres e sou desenvolvedor Front-end</h2>
       <p class="chamada__texto">Eu sou formada em lorem ipsum sit amet consectetur e atualmente estou participando no projeto Oracle ONE na Alura.</p>
       <ul class="chamada__lista">
         <li class="chamada__lista-itens"><a href="" class="chamada__link">Github&#129125;</a></li>
@@ -127,7 +127,7 @@
       <div class="habilidades__hobbies-imagens"><p class="habilidades__texto-imagens">Tocar piano</p></div>
       <div class="habilidades__hobbies-imagens"><p class="habilidades__texto-imagens">Desenhar</p></div>
       <div class="habilidades__hobbies-imagens"><p class="habilidades__texto-imagens">Ouvir musica</p></div>
-      <div class="habilidades__hobbies-imagens"><p class="habilidades__texto-imagens">Escultura em oil clay</p></div>
+      <div class="habilidades__hobbies-imagens"><p class="habilidades__texto-imagens">Escultura</p></div>
       <div class="habilidades__hobbies-imagens"><p class="habilidades__texto-imagens">Video game</p></div>
     </div>
     <p></p>
@@ -174,33 +174,36 @@
   </section>
   <section class="formulario container">
     <div class="formulario__imagem"></div>
-    <fieldset class="formulario__fildset">
-      <h2 class="formulario__titulo">Contato</h2>
-      <p class="formulario__texto">Quer entrar em contato comigo?
-        Preencha o formulário ao lado e entrarei em contato o mais rápido possível.</p>
-      <div class="formulario__caixa">
-        <label for="nome" class="formulario__label">Nome</label>
-        <input type="text" class="formulario__input" id="nome">
-      </div>
-      <div class="formulario__caixa">
-        <label for="nome" class="formulario__label">Email</label>
-        <input type="email" class="formulario__input" id="nome">
-      </div>
-      <div class="formulario__caixa">
-        <label for="nome" class="formulario__label">Assunto</label>
-        <input type="text" class="formulario__input" id="nome">
-      </div>
-      <div class="formulario__caixa">
-        <label for="nome" class="formulario__label">Mensagem</label>
-        <input type="text" class="formulario__input formulario__input--mensagem" id="nome">
-      </div>
-      <button type="submit" class="formulario__botao">Enviar Mensagem</button>
-    </fieldset>
+    <form>
+      <fieldset class="formulario__fildset">
+        <h2 class="formulario__titulo">Contato</h2>
+        <p class="formulario__texto">Quer entrar em contato comigo?
+          Preencha o formulário ao lado e entrarei em contato o mais rápido possível.</p>
+        <div class="formulario__caixa">
+          <input type="text" class="formulario__input" id="nome" required>
+          <label for="nome" class="formulario__label">Nome</label>
+        </div>
+        <div class="formulario__caixa">
+          <input type="email" class="formulario__input" id="nome" required>
+          <label for="nome" class="formulario__label">Email</label>
+        </div>
+        <div class="formulario__caixa">
+          <input type="text" class="formulario__input" id="nome" required>
+          <label for="nome" class="formulario__label">Assunto</label>
+        </div>
+        <div class="formulario__caixa">
+          <textarea type="text" class="formulario__input formulario__input--mensagem" id="nome"  required></textarea>
+          <label for="nome" class="formulario__label">Mensagem</label>
+        </div>
+        <button type="submit" class="formulario__botao">Enviar Mensagem</button>
+      </fieldset>
+    </form>
   </section>
   <footer class="rodape">
     <p class="rodape__texto">Desenvolvido por Renato Peres</br>
       2021</p>
   </footer>
+  <script src="./js/nav.js"></script>
 </body>
 </html>
 
