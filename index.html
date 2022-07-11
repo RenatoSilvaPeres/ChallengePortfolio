@@ -8,7 +8,9 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap" rel="stylesheet">
-
+   <!--ICONS BOOTSTRAP PARA Github, Instagram e LinkedIn-->
+   
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css" rel="stylesheet">
   <!-- --links cabeçalho-- -->
 
   <link rel="stylesheet" href="./css/css-base/normalize.css">
@@ -80,59 +82,57 @@
 </head>
 <body>
   <header class="cabecalho container">
-    <h1 class="cabecalho__titulo">Renato Peres</h1>
+    <h1 class="cabecalho__titulo"><i class="bi bi-file-code-fill"></i>Renato Peres</h1>
     <nav class="cabecalho__menu">
-      <ul class="cabecalho__menu-lista">
-        <li class="cabecalho__menu-item"><a href="#" class="cabecalho__link">Sobre mim</a></li>
-        <li class="cabecalho__menu-item"><a href="#" class="cabecalho__link">Skills</a></li>
-        <li class="cabecalho__menu-item"><a href="#" class="cabecalho__link">Hobbies</a></li>
-        <li class="cabecalho__menu-item"><a href="#" class="cabecalho__link">Formação</a></li>
-        <li class="cabecalho__menu-item"><a href="#" class="cabecalho__link">Projetos</a></li>
+      <ul id="cabecalho__menu-lista" class="cabecalho__menu-lista">
+        <li class="cabecalho__menu-item"><a href="" class="cabecalho__link " data-tipo="home">Home</a></li>
+        <li class="cabecalho__menu-item"><a href="#" class="cabecalho__link skills" data-tipo="habilidades">Skills</a></li>
+        <li class="cabecalho__menu-item"><a href="#" class="cabecalho__link hobbies" data-tipo="sobre">Sobre mim</a></li>
+        <li class="cabecalho__menu-item"><a href="#" class="cabecalho__link formacaoNav" data-tipo="formacao">Formação</a></li>
+        <li class="cabecalho__menu-item"><a href="#" class="cabecalho__link projetos" data-tipo="projetos">Projetos</a></li>
         <li class="cabecalho__menu-item"><a href="mailto: otaner_pc1@hotmail.com" class="cabecalho__link">otaner_pc1@hotmail.com</a></li>
       </ul>
     </nav>
   </header>
-  <section class="chamada container">
+  <section id="chamada" class="chamada container">
     <div class="chamada__caixa caixa">
       <h2 class="chamada__titulo">Olá, meu nome é Renato Peres e sou desenvolvedor Front-end</h2>
-      <p class="chamada__texto">Eu sou formada em lorem ipsum sit amet consectetur e atualmente estou participando no projeto Oracle ONE na Alura.</p>
+      <p class="chamada__texto">Dev em desenvolvimento: atualmente estou participando do projeto Oracle ONE na Alura.</p>
       <ul class="chamada__lista">
-        <li class="chamada__lista-itens"><a href="" class="chamada__link">Github&#129125;</a></li>
-        <li class="chamada__lista-itens"><a href="" class="chamada__link">Linkedin&#129125;</a></li>
-        <li class="chamada__lista-itens"><a href="" class="chamada__link">Instagram&#129125;</a></li>
-        <li class="chamada__lista-itens"><a href="" class="chamada__link">Currículo&#129125;</a></li>
+        <li class="chamada__lista-itens"><a href="https://github.com/RenatoSilvaPeres" class="chamada__link">Github<i class="bi bi-arrow-up-right"></i></a></li>
+        <li class="chamada__lista-itens"><a href="https://linkedin.com/in/renatosilvaperes" class="chamada__link">Linkedin<i class="bi bi-arrow-up-right"></i></a></li>
+        <li class="chamada__lista-itens"><a href="https://www.instagram.com/renatu.peres/" class="chamada__link">Instagram<i class="bi bi-arrow-up-right"></i></a></li>
+        <li class="chamada__lista-itens"><a href="" class="chamada__link">Currículo<i class="bi bi-arrow-up-right"></i></a></li>
       </ul>
     </div>
     <div class="chamada__imagem"></div>
   </section>
-  <section class="sobre container">
+  <section id="sobre" class="sobre container">
     <div class="sobre__caixa caixa">
       <h2 class="sobre__titulo">Sobre mim</h2>
-      <p class="sobre__texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque velit velit, volutpat semper dignissim dictum, imperdiet ut lacus. Quisque gravida ex a mattis pretium. Suspendisse potenti. Ut semper sagittis ligula et lacinia. 
-
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque velit velit, volutpat semper dignissim dictum, imperdiet ut lacus. Quisque gravida ex a mattis pretium. Suspendisse potenti. Ut semper sagittis ligula et lacinia. Aenean sit amet felis venenatis, egestas metus vitae, aliquet metus.</p>
+      <p class="sobre__texto"></p>
     </div>
   </section>
-  <section class="habilidades container">
+  <section id="habilidades" class="habilidades container">
     <h2 class="habilidades__skills">Skills</h2>
     <div class="habilidades__caixa">
-      <div class="habilidades__skills-imagens"><p class="habilidades__texto-imagens">Html 5</p></div>
-      <div class="habilidades__skills-imagens"><p class="habilidades__texto-imagens">Javascript</p></div>
-      <div class="habilidades__skills-imagens"><p class="habilidades__texto-imagens">Github</p></div>
-      <div class="habilidades__skills-imagens"><p class="habilidades__texto-imagens">CSS</p></div>
+      <div class="habilidades__skills-imagens habilidades__skills-imagens--HTML"><p class="habilidades__texto-imagens">Html 5</p></div>
+      <div class="habilidades__skills-imagens habilidades__skills-imagens--javascript"><p class="habilidades__texto-imagens">Javascript</p></div>
+      <div class="habilidades__skills-imagens habilidades__skills-imagens--GITHUB"><p class="habilidades__texto-imagens ">Github</p></div>
+      <div class="habilidades__skills-imagens habilidades__skills-imagens--CSS"><p class="habilidades__texto-imagens ">CSS</p></div>
       <div class="habilidades__skills-imagens habilidades__skills-imagens--blender"><p class="habilidades__texto-imagens">Blender</p></div>
     </div>
     <h2 class="habilidades__hobbies">Hobbies</h2>
     <div class="habilidades__caixa">
-      <div class="habilidades__hobbies-imagens"><p class="habilidades__texto-imagens">Tocar piano</p></div>
-      <div class="habilidades__hobbies-imagens"><p class="habilidades__texto-imagens">Desenhar</p></div>
-      <div class="habilidades__hobbies-imagens"><p class="habilidades__texto-imagens">Ouvir musica</p></div>
-      <div class="habilidades__hobbies-imagens"><p class="habilidades__texto-imagens">Escultura</p></div>
-      <div class="habilidades__hobbies-imagens"><p class="habilidades__texto-imagens">Video game</p></div>
+      <div class="habilidades__hobbies-imagens habilidades__hobbies-imagens--piano"><p class="habilidades__texto-imagens">Tocar piano</p></div>
+      <div class="habilidades__hobbies-imagens habilidades__hobbies-imagens--desenho"><p class="habilidades__texto-imagens">Desenhar</p></div>
+      <div class="habilidades__hobbies-imagens habilidades__hobbies-imagens--musica"><p class="habilidades__texto-imagens">Ouvir musica</p></div>
+      <div class="habilidades__hobbies-imagens habilidades__hobbies-imagens--escultura"><p class="habilidades__texto-imagens">Escultura</p></div>
+      <div class="habilidades__hobbies-imagens habilidades__hobbies-imagens--game"><p class="habilidades__texto-imagens">Video game</p></div>
     </div>
     <p></p>
   </section>
-  <section class="formacao container">
+  <section id="formacao" class="formacao container">
     <h2 class="formacao__titulo">Formação acadêmica</h2>
     <figure class="formacao__imagem">
       <div class="formacao__caixa-imagem">
@@ -149,10 +149,11 @@
       <p class="formacao__data">2022 - Alura</p>
     </figure>
   </section>
-  <section class="experiencia container">
+  <section id="experiencia" class="experiencia container">
     <h2 class="experiencia__titulo">Experiência profissional</h2>
     <div class="experiencia__caixa">
-      <div class="experiencia__imagem"></div>
+      <!-- <div class="experiencia__imagem"></div> -->
+      <img class="experiencia__imagem" src="/img/decoder.jpg" alt="">
       <div class="experiencia__caixa-botoes">
         <h2 class="experiencia__titulo-botao">Decodificador de texto</h2>
         <p class="experiencia__descricao">Challenge Alura
@@ -162,7 +163,8 @@
       </div>
     </div>
     <div class="experiencia__caixa">
-      <div class="experiencia__imagem experiencia__imagem--jogoForca"></div>
+      <!-- <div class="experiencia__imagem experiencia__imagem--jogoForca"></div> -->
+      <img class="experiencia__imagem experiencia__imagem--jogoForca" src="./img/jogo da forca.jpg" alt="">
       <div class="experiencia__caixa-botoes">
         <h2 class="experiencia__titulo-botao">Jogo criado com HTML, CSS e JavaScript</h2>
         <p class="experiencia__descricao">Challenge Alura

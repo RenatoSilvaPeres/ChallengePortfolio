@@ -6,9 +6,16 @@
   height: auto;
   width: 29rem;
 }
-@media screen and (max-width: 480px) {
+@media screen and (min-width: 0) {
   .formulario__imagem{
     display: none;
+  }
+ 
+}
+
+@media screen and (min-width: 1300px) {
+  .formulario__imagem{
+    display: initial;
   }
  
 }

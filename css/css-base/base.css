@@ -3,6 +3,8 @@
 
 --azul-escuro-sobre: #EAF2FD;
 
+--roxinho: #eee9ff;
+
 --branco-padrao: #ffffff;
 
 --azul-botao: #2A7AE4;
@@ -19,11 +21,15 @@ font-family: var(--font-padrao);
 
 }
 
+#displayNone{
+  display: none;
+  transition: all 2s;
+}
 
 @media screen and (min-width: 0px) {
   .container{
 
-    padding: 0 1rem;
+    padding: 0 2rem;
     
   }
 
@@ -41,7 +47,11 @@ font-family: var(--font-padrao);
 }
 @media screen and (min-width: 768px) {
   
-  
+  .container{
+
+    padding: 0 5rem;
+    
+  }
 }
 @media screen and (min-width: 1440px) {
   .container{

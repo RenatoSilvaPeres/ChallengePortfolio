@@ -4,8 +4,8 @@
   background-repeat: no-repeat;
   background-size: cover;
   box-shadow: -3px 3px 3px rgb(154, 153, 153);
-  height: 406px;
-  width: 752px;
+  
+  
   
 }
 
@@ -14,18 +14,43 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 406px;
-  width: 752px;
+  
 }
-@media screen and (max-width: 480px) {
-  .experiencia__imagem--jogoForca{
-    width: 100%;
-    height: 200px;
-    background-size: 100%;
-  }
+
+@media screen and (min-width: 0) {
+ 
   .experiencia__imagem{
     width: 100%;
     height: 200px;
     background-size: 100%;
   }
+}
+@media screen and (min-width: 480px) {
+  
+  .experiencia__imagem{
+    
+    height: 406px;
+    
+  }
+}
+
+
+@media screen and (min-width: 768px) {
+  
+  .experiencia__imagem{
+    
+    width: 70%;
+    background-size: 100%;
+  }
+ 
+}
+
+@media screen and (min-width: 1440px) {
+  
+  .experiencia__imagem{
+    
+    width: 60%;
+    
+  }
+ 
 }

@@ -8,7 +8,8 @@
   height: 176px;
   margin-top: 2rem;
   width: 174px;
-  
+  border-radius: 100%;
+  border: 4px dashed var(--azul-escuro-sobre);
 }
 .habilidades__skills-imagens:first-child{
   
@@ -16,30 +17,35 @@ margin-left: 0;
   
 }
 .habilidades__skills-imagens--blender{
-  background-image: url(../../img/blender_icon_128x128.png);
+  background-image: url(../../img/blender.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: 50%;
   
 }
 .habilidades__skills-imagens--javascript{
-  background-image: url(../../img/blender_icon_128x128.png);
+  background-image: url(../../img/javascript.png);
   background-position: center;
   background-repeat: no-repeat;
+  background-size: 100%;
 }
 
 .habilidades__skills-imagens--HTML{
-  background-image: url(../../img/blender_icon_128x128.png);
+  background-image: url(../../img/html.png);
   background-position: center;
   background-repeat: no-repeat;
+  background-size: 100%;
 }
 .habilidades__skills-imagens--CSS{
-  background-image: url(../../img/blender_icon_128x128.png);
+  background-image: url(../../img/css.png);
   background-position: center;
   background-repeat: no-repeat;
+  background-size: 100%;
 }
 .habilidades__skills-imagens--GITHUB{
-  background-image: url(../../img/blender_icon_128x128.png);
+  background-image: url(../../img/github.png);
   background-position: center;
   background-repeat: no-repeat;
+  background-size: 100%;
+  
 }

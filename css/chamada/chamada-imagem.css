@@ -1,6 +1,8 @@
 .chamada__imagem{
-  background: red;
+  background-image: url("../../img/photo_5066869582081403544_y.jfif");
   border-radius: 100%;
+  background-position: center;
+  background-size: cover;
  
 }
 

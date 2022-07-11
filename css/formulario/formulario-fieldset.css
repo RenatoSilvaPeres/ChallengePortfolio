@@ -1,16 +1,43 @@
 .formulario__fildset{
   display: flex;
-  width: 41rem;
+  
   flex-direction: column;
   border: none;
-  padding:0 0 0 1rem;
+  
  
 }
-@media screen and (max-width: 480px) {
+@media screen and (min-width: 0) {
   .formulario__fildset{
     
     width: 100%;
     padding:0;
+   
+  }
+ 
+}
+@media screen and (min-width: 480px) {
+  .formulario__fildset{
+    
+    width: 100%;
+    padding:0;
+   
+  }
+ 
+}
+@media screen and (min-width: 768px) {
+  .formulario__fildset{
+    
+    width: 100%;
+    padding:0;
+   
+  }
+ 
+}
+@media screen and (min-width: 1440px) {
+  .formulario__fildset{
+    
+    width: 41rem;
+    padding:0 0 0 1rem;
    
   }
  

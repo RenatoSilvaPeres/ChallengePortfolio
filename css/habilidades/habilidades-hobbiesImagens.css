@@ -1,12 +1,55 @@
 .habilidades__hobbies-imagens{
   align-items: flex-end;
   background: var(--branco-padrao);
+  
   display: flex;
   justify-content: center;
   font-weight: 700;
   height: 176px;
- margin-top: 2rem;
+  margin-top: 2rem;
   width: 174px;
+  border-radius: 100%;
+  border: 4px dashed var(--roxinho) ;
   
+}
+
+
+.habilidades__hobbies-imagens--musica{
+  background-image: url(../../img/musica.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  
+}
+
+.habilidades__hobbies-imagens--escultura{
+  background-image: url(../../img/escultura.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  
+}
+
+.habilidades__hobbies-imagens--piano{
+  background-image: url(../../img/piano.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  
+}
+
+.habilidades__hobbies-imagens--game{
+  background-image: url(../../img/video\ game.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  
+}
+
+.habilidades__hobbies-imagens--desenho{
+  background-image: url(../../img/desenhar.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
   
 }
