@@ -45,3 +45,57 @@ function tiraDisplay(sectionComDisplay){
   chamada.style.display = "none";
   sectionComDisplay.style.display = "flex";
 }
+
+var input = document.querySelectorAll(".formulario__input");
+var erro = document.querySelectorAll(".formulario__spanTexto")
+var botao = document.querySelector(".formulario__botao");
+var label = document.querySelectorAll("label")
+
+botao.addEventListener("click", function(){
+ for(i = 0; i < input.length; i++){
+  if(!input[i].validity.valid){
+    label[i].classList.add ("formulario__label--erro")
+    input[i].classList.add ("formulario__input--erro")
+    erro[i].style.display = "block";
+    erro[i].innerHTML = mostraMensagem (input[i].dataset.tipo, input[i]);
+    
+  }
+  else{
+    input[i].classList.remove ("formulario__input--erro")
+    label[i].classList.remove ("formulario__label--erro")
+    erro[i].style.display = "none";
+  }
+ }
+
+})
+var tiposDeErro = [
+  "valueMissing",
+  "typeMismatch"
+]
+var mensagensErro = {
+  nome:{
+    valueMissing: "O campo nome não pode estar vazio."
+  },
+  assunto:{
+    valueMissing: "O campo assunto não pode estar vazio."
+
+  },
+  email: {
+    valueMissing: "O campo email não pode estar vazio.",
+    typeMismatch: "O email digitado não é valido"
+  },
+  texto:{
+    valueMissing: "O campo de mensagem não pode estar vazio."
+  }
+}
+function mostraMensagem (tipoDeInput, input){
+  var mensagem = "";
+  tiposDeErro.forEach(erro =>{
+    if(input.validity[erro]){
+      mensagem = mensagensErro[tipoDeInput][erro];
+    }
+
+  })
+
+  return mensagem;
+}

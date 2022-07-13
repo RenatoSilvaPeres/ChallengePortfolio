@@ -3,8 +3,14 @@
   border-bottom: 2px solid var(--cor-borda-cinza);
   height: 2.5rem;
   padding: 1rem 0.5rem 0rem 0.5rem;
-  margin-bottom: 2rem;
+  
   width: 100%;
+  
+}
+
+.formulario__input--erro{
+  
+  border-bottom: 2px solid var(--erro);
 }
 .formulario__input:focus + label{
   color: var(--azul-botao);

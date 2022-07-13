@@ -73,6 +73,8 @@
   <link rel="stylesheet" href="./css/formulario/formulario-caixa.css">
   <link rel="stylesheet" href="./css/formulario/formulario-botao.css">
   <link rel="stylesheet" href="./css/formulario/formulario-imagem.css">
+  <link rel="stylesheet" href="./css/formulario/formulario-spanTexto.css">
+  <link rel="stylesheet" href="./css/formulario/formulario-span.css">
   <!-- --link footer-- -->
 
   <link rel="stylesheet" href="./css/footer/rodape-texto.css">
@@ -97,7 +99,7 @@
   <section id="chamada" class="chamada container">
     <div class="chamada__caixa caixa">
       <h2 class="chamada__titulo">Olá, meu nome é Renato Peres e sou desenvolvedor Front-end</h2>
-      <p class="chamada__texto">Dev em desenvolvimento: atualmente estou participando do projeto Oracle ONE na Alura.</p>
+      <p class="chamada__texto">Atualmente estou participando do projeto Oracle ONE na Alura.</p>
       <ul class="chamada__lista">
         <li class="chamada__lista-itens"><a href="https://github.com/RenatoSilvaPeres" class="chamada__link">Github<i class="bi bi-arrow-up-right"></i></a></li>
         <li class="chamada__lista-itens"><a href="https://linkedin.com/in/renatosilvaperes" class="chamada__link">Linkedin<i class="bi bi-arrow-up-right"></i></a></li>
@@ -110,7 +112,7 @@
   <section id="sobre" class="sobre container">
     <div class="sobre__caixa caixa">
       <h2 class="sobre__titulo">Sobre mim</h2>
-      <p class="sobre__texto"></p>
+      <p class="sobre__texto"><em>Iniciante em programação e artista nas horas vagas.</em> <br> Sou um grande colecionador de hobbies, estou sempre buscando aprender coisas novas e tentando entender o funcionamento das coisas, acho incrível a capacidade humana de criar e resolver problemas hipotéticos e a programação consegue unir perfeitamente essas duas habilidades, por esse motivo continuo a me interessar cada dia mais pelas as possibilidades de ser um desenvolvedor.</p>
     </div>
   </section>
   <section id="habilidades" class="habilidades container">
@@ -152,7 +154,7 @@
   <section id="experiencia" class="experiencia container">
     <h2 class="experiencia__titulo">Experiência profissional</h2>
     <div class="experiencia__caixa">
-      <!-- <div class="experiencia__imagem"></div> -->
+      
       <img class="experiencia__imagem" src="/img/decoder.jpg" alt="">
       <div class="experiencia__caixa-botoes">
         <h2 class="experiencia__titulo-botao">Decodificador de texto</h2>
@@ -163,7 +165,7 @@
       </div>
     </div>
     <div class="experiencia__caixa">
-      <!-- <div class="experiencia__imagem experiencia__imagem--jogoForca"></div> -->
+      
       <img class="experiencia__imagem experiencia__imagem--jogoForca" src="./img/jogo da forca.jpg" alt="">
       <div class="experiencia__caixa-botoes">
         <h2 class="experiencia__titulo-botao">Jogo criado com HTML, CSS e JavaScript</h2>
@@ -176,26 +178,31 @@
   </section>
   <section class="formulario container">
     <div class="formulario__imagem"></div>
-    <form>
+    <form action="https://formsubmit.co/otaner_pc1@hotmail.com" method="POST">
+      <input type="hidden" name="_subject" value="Novo e-mail portfolio!">
       <fieldset class="formulario__fildset">
         <h2 class="formulario__titulo">Contato</h2>
         <p class="formulario__texto">Quer entrar em contato comigo?
           Preencha o formulário ao lado e entrarei em contato o mais rápido possível.</p>
         <div class="formulario__caixa">
-          <input type="text" class="formulario__input" id="nome" required>
+          <input name="nome" type="text" class="formulario__input" id="nome" data-tipo="nome" required>
+          <span class="formulario__span"><p class="formulario__spanTexto">nome invalido</p></span>
           <label for="nome" class="formulario__label">Nome</label>
         </div>
         <div class="formulario__caixa">
-          <input type="email" class="formulario__input" id="nome" required>
-          <label for="nome" class="formulario__label">Email</label>
+          <input name="email" type="email" class="formulario__input" id="email" data-tipo="email" required>
+          <span class="formulario__span"><p class="formulario__spanTexto">nome invalido</p></span>
+          <label for="email" class="formulario__label">Email</label>
         </div>
         <div class="formulario__caixa">
-          <input type="text" class="formulario__input" id="nome" required>
-          <label for="nome" class="formulario__label">Assunto</label>
+          <input type="text" class="formulario__input" id="assunto" name="assunto" data-tipo="assunto"required>
+          <span class="formulario__span"><p class="formulario__spanTexto">nome invalido</p></span>
+          <label for="assunto" class="formulario__label">Assunto</label>
         </div>
         <div class="formulario__caixa">
-          <textarea type="text" class="formulario__input formulario__input--mensagem" id="nome"  required></textarea>
-          <label for="nome" class="formulario__label">Mensagem</label>
+          <textarea name="mensagem" type="text" class="formulario__input formulario__input--mensagem" id="mensagem" data-tipo="texto" required></textarea>
+          <span class="formulario__span"><p class="formulario__spanTexto">nome invalido</p></span>
+          <label for="mensagem" class="formulario__label">Mensagem</label>
         </div>
         <button type="submit" class="formulario__botao">Enviar Mensagem</button>
       </fieldset>
